@@ -12,5 +12,5 @@ localStorage.setItem('alpha',arr)
 localStorage.setItem('alpha',name)
 //localStorage.setItem('alpha',JSON.stringify(arr));
 localStorage.setItem('alpha',JSON.stringify(name));
-let alf=JSON.parse(localStorage.getItem('alpha'));
-console.log(alf);
+ let alf=JSON.parse(localStorage.getItem('alpha'));
+ console.log(alf);
