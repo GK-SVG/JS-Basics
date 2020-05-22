@@ -1,0 +1,5 @@
+This is ajex Test file.
+A=Asyncronous
+J=JavaScript
+A=And
+X=XML
