@@ -10,8 +10,8 @@ function buttonClickHandler(){
 
     //open the object
     xhr.open('GET','test.txt',true);
-    //xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1',true);
-    xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1',false);
+    xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1',true);
+    //xhr.open('GET','https://jsonplaceholder.typicode.com/todos/1',false);
     // xhr.send();
     // console.log('we are done');
     

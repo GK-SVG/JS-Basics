@@ -11,7 +11,7 @@ function buttonClickHandler(){
     //open the object
     xhr.open('POST','http://dummy.restapiexample.com/api/v1/create',true)
     xhr.getResponseHeader('Content-type','application/json');
-    mydata =`{"name":"gjjk999","salary":"123","age":" 23"}`;
+    mydata =`{"name":"gjjk999","salary":"123","age":"23"}`;
     xhr.send(mydata);
 
      //onprogress for loader or spinner
