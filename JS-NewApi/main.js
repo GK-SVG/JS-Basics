@@ -1,18 +1,5 @@
-// console.log("My news Api");
- 
-// let accordion = document.getElementById('accordion');
-// const xhr= new XMLHttpRequest();
-// xhr.open('GET','http://newsapi.org/v2/top-headlines?source=bbc-news&apiKey=875f27e497bb4d2a85eb98e2bb515b2c',true);
-   
-//     xhr.onload=function(){
-       
-//             let json = JSON.parse(this.responseText);
-//             console.log(json);
-           
-       
-//     }
-//     xhr.send();
-console.log("This is my index js file");
+
+console.log("This is my js file");
 
 // Initialize the news api parameters
 let source = 'the-times-of-india';
@@ -43,8 +30,8 @@ xhr.onload = function () {
                                 </h2>
                             </div>
 
-                            <div id="collapse${index}" class="collapse" aria-labelledby="heading${index}" data-parent="#newsAccordion">
-                                <div class="card-body text-dark"> ${element["description"]}. <a href="${element['url']}" target="_blank" >Read more here</a>  </div>
+                            <div id="collapse${index}" class="collapse" aria-labelledby="heading${index}" data-parent="#newsAccordion"> 
+                            <div class="card-body text-dark"><img src="${element["urlToImage"]}">  <b> ${element["description"]}.</b> <a href="${element['url']}" target="_blank" >Read more here</a>  </div>
                             </div>
                         </div>`;
             newsHtml += news;
