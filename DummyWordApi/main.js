@@ -16,6 +16,7 @@ function addInput(){
     let str=[];
     words.forEach(function(index){
         console.log('This is in')
+        
       if (words[index].word==input.value) {
           str.push(words[index]);
       }  
