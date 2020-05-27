@@ -13,7 +13,7 @@ function getdata(){
     })
 } 
 function postdata(){
-    console.log('inside getdata')
+    console.log('inside postdata')
     let url='http://dummy.restapiexample.com/api/v1/create';
     mydata =`{"name":"test","salary":"123","age":"23"}`;
     params={
