@@ -2,7 +2,7 @@
 console.log("This is my js file");
 
 // Initialize the news api parameters
-let source = 'the-times-of-india';
+let source = 'bbc-news';
 let apiKey='875f27e497bb4d2a85eb98e2bb515b2c';
 // Grab the news container
 let newsAccordion = document.getElementById('newsAccordion');
